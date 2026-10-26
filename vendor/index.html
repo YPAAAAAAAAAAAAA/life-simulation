@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>life-simulation</title>
+<link rel="stylesheet" href="life.css">
+<style>html,body{height:100%;margin:0;overflow:hidden;background:#071614}</style>
+<!-- LICENSE.txt -->
+</head>
+<body>
+<div id="stage">
+  <canvas id="pond"></canvas>
+  <button id="fold" type="button" aria-expanded="false" aria-controls="about" aria-label="Pond notes">i</button>
+  <p id="hint">idea after @dominikvytisk (dominikvytisk/life-simulation); clean-room implementation, no code copied</p>
+  <aside id="about" hidden>
+    <p id="pond-line">Tide pool</p>
+    <p id="sel-line">Tap a creature to read its body.</p>
+    <p>Drag to pan. Pinch to zoom. Tap a body. A genome, a tiny brain, a memory cell and a signal — nothing they do is scripted.</p>
+    <p>idea after @dominikvytisk (dominikvytisk/life-simulation); clean-room implementation, no code copied</p>
+  </aside>
+</div>
+<script src="life.js"></script>
+</body>
+</html>
