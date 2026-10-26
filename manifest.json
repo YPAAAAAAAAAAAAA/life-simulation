@@ -1,0 +1,20 @@
+{
+  "id": "life-simulation",
+  "title": {
+    "en": "life-simulation",
+    "zh": "生命模拟"
+  },
+  "intro": {
+    "en": "Artificial life in a tide pool. Each creature has a genome, a tiny brain, one memory cell and a signal nobody assigned a meaning. Nothing it does is scripted. Drag to pan, pinch to zoom, tap one to look.",
+    "zh": "潮池里的人工生命。每只生物都有基因组、一小团脑、一格记忆，还有谁也没规定含义的信号。行为不是写好的脚本。拖动平移，双指缩放，点一只看它的身体。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/life.css",
+    "vendor/life.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/life-simulation"
+}
